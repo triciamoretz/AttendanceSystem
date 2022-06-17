@@ -1,0 +1,90 @@
+body{
+	height:100%;
+}
+div#main {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+}
+#main .container{
+	margin:200px;
+}
+div#sidebar {
+    width: 250px;
+    height: 95.3%;
+    position: absolute;
+}
+#sidebar-field{
+	border-top:1px solid gray;
+}
+#sidebar .sidebar-item {
+    position: relative;
+    height: 50px;
+    padding: 10px;
+    display: inline-flex;
+    font-size: 15px;
+    align-items: center;
+    border-bottom: 1px solid gray;
+    width: 100%;
+    color: #cacaca;
+    font-weight: 700
+}
+#sidebar .sidebar-item:hover, #sidebar .sidebar-item.active{
+	color:white;
+	text-decoration: unset;
+	background: #ffffff59
+}
+
+#sidebar .sidebar-item .sidebar-icon {
+	width:11%;
+	padding: auto;
+}
+.container-fluid.admin{
+	padding: 20px;
+	width: 80%;
+	max-width: inherit;
+	margin-left: 250px
+}
+.container-fluid.admin2{
+	padding: 20px;
+	max-width: inherit;
+	height: 100%
+}
+.bottom-info{
+	width:70%;
+	height:50%;
+	margin-top:40px;
+	margin-left:15%;
+	background-color: green;
+
+}
+
+.form-bottom{display:block;
+	width:60%;
+	padding:.375rem .75rem;
+	font-size:1rem;
+	line-height:1.5;
+	color:#495057;
+	background-color:#fff;
+	background-clip:padding-box;
+	border:1px solid #ced4da;
+	border-radius:.55rem;
+	transition:border-color .15s ease-in-out,box-shadow .15s ease-in-out
+	}
+.form-bottom::-ms-expand{background-color:transparent;border:0}
+.attendance_log{
+	top:5%;
+	position: relative;
+}
+
+#company-logo-field {
+	display: flex;
+}
+#company-logo-field h4,#company-logo-field img{
+	margin:auto;
+}
+#log_display{
+	font-weight: bold;
+	font-size:17px;
+	margin-top: 100px;
+}
